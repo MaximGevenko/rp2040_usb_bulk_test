@@ -46,7 +46,5 @@ Notes
 -----
 - No TinyUSB and no CDC are involved.
 - The endpoint is single-buffered in this first benchmark implementation.
-- If this already gives enough margin over ~600 kB/s, it is sufficient to
-  prove the board's RP2040 -> FSUSB42 -> USB-C path can carry the CIR stream.
 - A later version can add USB endpoint double buffering if more throughput is
   required.
